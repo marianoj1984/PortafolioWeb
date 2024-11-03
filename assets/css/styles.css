@@ -51,13 +51,26 @@
     border-radius: 10px;
 
 }
+/* tamaño de la Card al pasar el mouse */
+
+.card:hover {
+
+    transform: scale(1.05);
+
+}
 
 /* tamaño iconos Cards */
 
 .card-icon{
+
     max-width: 10%;
     height: auto;
 }
+
+.navbar-toggler {
+    color: #7c7c7c;
+}
+
 /* display background color black on navbar scroll */
 
 .navbarScroll.navbarDark {
@@ -81,6 +94,8 @@
 .fa-instagram:hover,
 
 .fa-twitter:hover,
+
+.fa-github:hover,
 
 .fa-linkedin:hover {
 
